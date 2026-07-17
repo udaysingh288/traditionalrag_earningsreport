@@ -1,0 +1,115 @@
+{
+  "insurance_download": {
+    "metadata": {
+      "export_date": "2026-07-16",
+      "export_format": "1.0",
+      "total_policies": 0,
+      "total_claims": 0
+    },
+    "policies": [
+      {
+        "policy_id": "POL-2024-001234",
+        "policy_type": "Health Insurance",
+        "provider": {
+          "name": "Insurance Company Name",
+          "contact_phone": "1-800-XXX-XXXX",
+          "contact_email": "support@insurer.com",
+          "website": "https://www.insurer.com",
+          "customer_service_hours": "Mon-Fri 8AM-8PM EST"
+        },
+        "policy_holder": {
+          "name": "Full Name",
+          "date_of_birth": "YYYY-MM-DD",
+          "policy_number": "123456789",
+          "group_number": "G123456"
+        },
+        "coverage": {
+          "effective_date": "YYYY-MM-DD",
+          "expiration_date": "YYYY-MM-DD",
+          "coverage_type": "PPO/HMO/POS",
+          "deductible": {
+            "individual": 1500,
+            "family": 3000,
+            "currency": "USD"
+          },
+          "out_of_pocket_max": {
+            "individual": 5000,
+            "family": 10000,
+            "currency": "USD"
+          },
+          "copay": {
+            "primary_care": 25,
+            "specialist": 50,
+            "emergency_room": 250
+          },
+          "coinsurance": "20%",
+          "covered_services": [
+            "Primary Care",
+            "Specialist Visits",
+            "Hospitalization",
+            "Prescription Drugs",
+            "Mental Health",
+            "Preventive Care"
+          ]
+        },
+        "enrollment_status": "Active",
+        "premium": {
+          "monthly_amount": 500,
+          "billing_frequency": "Monthly",
+          "currency": "USD",
+          "last_payment_date": "YYYY-MM-DD"
+        }
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "CLM-2026-001",
+        "policy_id": "POL-2024-001234",
+        "claim_date": "YYYY-MM-DD",
+        "service_date": "YYYY-MM-DD",
+        "provider_name": "Provider Hospital/Clinic",
+        "claim_amount": 1500,
+        "allowed_amount": 1200,
+        "insurance_paid": 950,
+        "patient_responsibility": 250,
+        "status": "Approved/Pending/Denied",
+        "description": "Office visit - General checkup"
+      }
+    ],
+    "dependents": [
+      {
+        "name": "Dependent Name",
+        "relationship": "Spouse/Child",
+        "date_of_birth": "YYYY-MM-DD",
+        "coverage_status": "Active",
+        "employee_id": "DEP123456"
+      }
+    ],
+    "documents": [
+      {
+        "document_type": "ID Card",
+        "document_url": "/documents/id_card_front.pdf",
+        "issue_date": "YYYY-MM-DD"
+      },
+      {
+        "document_type": "Summary of Benefits",
+        "document_url": "/documents/summary_of_benefits.pdf",
+        "issue_date": "YYYY-MM-DD"
+      },
+      {
+        "document_type": "Policy Documents",
+        "document_url": "/documents/policy_full.pdf",
+        "issue_date": "YYYY-MM-DD"
+      }
+    ],
+    "billing_history": [
+      {
+        "billing_date": "YYYY-MM-DD",
+        "amount_due": 500,
+        "amount_paid": 500,
+        "payment_method": "Credit Card",
+        "status": "Paid"
+      }
+    ]
+  }
+}

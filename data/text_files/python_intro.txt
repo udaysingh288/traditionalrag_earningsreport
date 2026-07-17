@@ -1,0 +1,82 @@
+Python (programming language)
+
+Article
+Talk
+Read
+Edit
+View history
+
+Appearance hide
+Text
+
+Small
+
+Standard
+
+Large
+Width
+
+Standard
+
+Wide
+Color
+
+Automatic
+
+Light
+
+Dark
+From Wikipedia, the free encyclopedia
+Python
+
+Paradigm	Multi-paradigm: object-oriented,[1] procedural (imperative), functional, structured, reflective
+Designed by	Guido van Rossum
+Developer	Python Software Foundation
+First appeared	20 February 1991; 35 years ago[2]
+Stable release	
+3.14.6[3] Edit this on Wikidata / 10 June 2026; 36 days ago
+Typing discipline	Duck, dynamic, strong;[4] optional type annotations[a]
+Memory management	Garbage-collected
+OS	Cross-platform[b]
+License	Python Software Foundation License
+Filename extensions	.py,[11] .pyc,[12] .pyd,[13] .pyi,[14] .pyw,[15] .pyz[16]
+Website	python.org
+Major implementations
+CPython, PyPy, MicroPython, CircuitPython, IronPython, Jython, Stackless Python
+Dialects
+Cython, RPython, Starlark[17]
+Influenced by
+ABC,[18] Ada,[19][failed verification] ALGOL 68,[20] APL,[21] C,[22] C++,[23] CLU,[24] Dylan,[25] Haskell,[26][21] Icon,[27] Lisp,[28] Modula-3,[20][23] Perl,[29] Standard ML[21]
+Influenced
+Apache Groovy, Boo, Cobra, CoffeeScript,[30] D, F#, GDScript, Go, JavaScript,[31][32] Julia,[33] Mojo,[34] Nim, Ruby,[35] Swift,[36] V[37]
+Wikibooks logo Python Programming at Wikibooks
+This article is part of a series on
+Python
+Python logo
+Python frameworks
+Python libraries
+Python IDEs
+Python implementations
+See also
+icon Computer programming portal
+Python Programming (Wikibook)
+vte
+Python is a high-level, general-purpose programming language that emphasizes code readability, simplicity, and ease-of-writing with the use of significant indentation,[38] an extensive ("batteries-included") standard library, and garbage collection. Python supports multiple programming paradigms but with an emphasis on object-oriented programming and dynamic typing.
+
+Guido van Rossum began working on Python in the late 1980s as a successor to the ABC programming language. Python 3.0, released in 2008, was a major revision and not completely backward-compatible with earlier versions. Beginning with Python 3.5,[39] capabilities and keywords for typing were added to the language, allowing optional static typing.[40] As of 2026, the Python Software Foundation supports Python 3.10, 3.11, 3.12, 3.13, and 3.14, following the project's annual release cycle and five-year support policy. Python 3.15 is currently in the beta development phase, and the stable release is expected to launch in October 2026.[41] Earlier versions in the 3.x series have reached end-of-life and no longer receive security updates.
+
+Python is widely taught as an introductory programming language.[42]
+
+History
+Main article: History of Python
+
+The designer of Python, Guido van Rossum, at PyCon US 2024
+Python was conceived in the late 1980s[11] by Guido van Rossum at Centrum Wiskunde & Informatica (CWI) in the Netherlands.[43] It was designed as a successor to the ABC programming language, which was inspired by SETL,[44] capable of exception handling and interfacing with the Amoeba operating system.[18] Python implementation began in December 1989.[43] Van Rossum first released it in 1991 as Python 0.9.0.[43] Van Rossum assumed sole responsibility for the project, as the lead developer, until 12 July 2018, when he announced his "permanent vacation" from responsibilities as Python's "benevolent dictator for life" (BDFL); this title was bestowed on him by the Python community to reflect his long-term commitment as the project's chief decision-maker.[45][c] In January 2019, active Python core developers elected a five-member Steering Council to lead the project.[46][47]
+
+The name Python derives from the British comedy series Monty Python's Flying Circus.[48] (See § Naming.)
+
+Python 2.0 was released on 16 October 2000, featuring many new features such as list comprehensions, cycle-detecting garbage collection, reference counting, and Unicode support.[49] Python 2.7's end-of-life was initially set for 2015, and then postponed to 2020 out of concern that a large body of existing code could not easily be forward-ported to Python 3.[50][51] It no longer receives security patches or updates.[52][53] While Python 2.7 and older versions are officially unsupported, a different unofficial Python implementation, PyPy, continues to support Python 2, i.e., "2.7.18+" (plus 3.11), with the plus signifying (at least some) "backported security updates".[54]
+
+Python 3.0 was released on 3 December 2008, and was a major revision and not completely backward-compatible with earlier versions, with some new semantics and changed syntax. Python 2.7.18, released in 2020, was the last release of Python 2.[55] Several releases in the Python 3.x series have added new syntax to the language, and made a few (considered very minor) backward-incompatible changes.
+
+As of May 2026, Python 3.14.6 is the latest stable release. All older 3.x versions had a security update down to Python 3.9.24 then again with 3.9.25, the final version in 3.9 series. Python 3.10 is, since November 2025, the oldest supported branch.[56] Python 3.15 has an alpha released, and Android has an official downloadable executable available for Python 3.14. Releases receive two years of full support followed by three years of security support.

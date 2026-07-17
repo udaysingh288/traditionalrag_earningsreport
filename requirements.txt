@@ -1,0 +1,17 @@
+langchain
+langchain_community
+langchain_core
+langgraph
+langsmith
+ipykernel
+python-dotenv
+langchain-groq
+langchain_tavily
+pypdf
+pymupdf
+jq
+langchain_text_splitters
+sentence-transformers
+faiss-cpu
+chromadb
+
